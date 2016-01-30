@@ -7,13 +7,9 @@ This section will give you a quick overview of the client and how the major func
 
 * Include elasticsearch-php in your `composer.json` file:
 +
-[source,json]
+[source,bash]
 ----------------------------
-{
-    "require": {
-        "elasticsearch/elasticsearch": "~2.0"
-    }
-}
+composer require elasticsearch/elasticsearch
 ----------------------------
 
 * Install the client with composer:
